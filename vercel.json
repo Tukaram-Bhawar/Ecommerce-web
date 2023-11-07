@@ -24,7 +24,7 @@
       },
       {
         "src": "/(.+)",
-        "dest": "ui/build/$1"
+        "dest": "build/$1"
       }
     ]
   }
