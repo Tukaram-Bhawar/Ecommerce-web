@@ -13,7 +13,7 @@ console.log('env',process.env.DB_PASSWORD)
 main().catch(err => console.log(err));
 
 async function main() {
-  await mongoose.connect(process.env.MONGOURL);
+  await mongoose.connect("mongodb+srv://tukarambhawar014496:ZtXWU8F1270aBVrT@cluster0.dxqzsku.mongodb.net/ecommerse");
   console.log('database connected')
 }
 //Schema
