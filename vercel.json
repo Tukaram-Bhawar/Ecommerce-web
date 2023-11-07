@@ -1,4 +1,7 @@
 {
+    "version": 2,
+    "env": {
+    },
     "builds": [
       {
         "src": "index.js",
